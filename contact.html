@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kazakhstan Travel Co. - Book Now</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header id="main-header">
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Tours & Pricing</a></li>
+                <li><a href="contact.html" class="active">Book Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Book Your Tour</h1>
+
+        <form id="contact-form" action="#" method="post">
+            <div class="form-group">
+                <label for="user-name">Full Name:</label>
+                <input type="text" id="user-name" name="name" required placeholder="Enter your full name">
+            </div>
+
+            <div class="form-group">
+                <label for="user-email">Email Address:</label>
+                <input type="email" id="user-email" name="email" required placeholder="name@example.com">
+            </div>
+
+            <div class="form-group">
+                <label for="tour-select">Select Tour Package:</label>
+                <select id="tour-select" name="tour_package">
+                    <option value="almaty">Almaty Express (2 Days)</option>
+                    <option value="nature">Nature Wonders (3 Days)</option>
+                    <option value="nomad">Grand Nomad Explorer (7 Days)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="user-message">Special Requests or Travel Dates:</label>
+                <textarea id="user-message" name="message" rows="5" required placeholder="Specify your desired travel dates or group size..."></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">Submit Reservation Inquiry</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Team Members: Sapargaliyev Danial | Zamanbekov Olzhas</p>
+    </footer>
+
+</body>
+</html>
